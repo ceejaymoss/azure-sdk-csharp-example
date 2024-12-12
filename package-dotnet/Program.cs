@@ -9,10 +9,10 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        string subscriptionId = "f5248d64-e3e0-4b1c-80e3-ce984c44da3b";
-        string resourceGroupName = "azure_900_test";
-        string storageAccountName = "helloworld0978"; // Must be globally unique
-        string region = "australiacentral";
+        string subscriptionId = "";
+        string resourceGroupName = "";
+        string storageAccountName = ""; // Must be globally unique
+        string region = "";
 
         // Authenticate with Azure using DefaultAzureCredential
         var credential = new DefaultAzureCredential();
